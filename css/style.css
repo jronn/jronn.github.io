@@ -1,0 +1,202 @@
+body {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x:hidden;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+
+	border-top: 25px solid #181818;
+
+  z-index: 2;
+  margin-left:20px;
+}
+
+.arrow-white {
+  border-top: 25px solid #ffffff;
+}
+
+.bg-black {
+  background-color: #181818;
+}
+
+
+/* ---------- Profile START ---------------------------------- */
+
+.profile-img {
+  margin-top:25px;
+  margin-bottom: 25px;
+  min-height: 400px;
+  min-width: 400px;
+}
+
+.profile-desc-container {
+    align-self:center;
+}
+
+.profile-desc {
+  color:white;
+
+  min-height: 450px;
+  justify-content: center;
+  display:flex;
+}
+
+.profile-desc .profile-title {
+  white-space: nowrap;
+  font-size:3.2em;
+}
+
+.profile-desc .profile-subtitle {
+  color:rgba(255, 255, 255, 0.5);;
+  font-size:1.8em;
+  margin-top:0px;
+  margin-bottom: 30px;
+}
+
+.profile-desc button {
+  margin: 15px 0px 15px 0px;
+}
+
+.button-content {
+  justify-content: center;
+  display:flex;
+}
+
+.button-text {
+  align-self:center;
+  margin-left:10px;
+}
+
+/* ---------- Profile END ---------------------------------- */
+
+/* ---------- About me START ---------------------------------- */
+
+.about-section {
+  z-index: 1;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.about-section .about-desc {
+  font-color: #181818;
+}
+
+.about-section .about-me-title {
+  font-size: 2em;
+}
+
+.about-section .about-me-text {
+  font-size: 1.2em;
+}
+
+.about-section .higlighted {
+  color:#5555ff;
+}
+
+/* ---------- About me END ---------------------------------- */
+
+/* ---------- Projects START ---------------------------------- */
+
+.project-section {
+  background-color:#181818;
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left:30px;
+  padding-right:30px;
+  text-align: center;
+}
+
+.project-section-title {
+  color:#ffffff;
+  font-size:2em;
+  margin-bottom:15px;
+}
+
+.project {
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.project-btn-container {
+  justify-content: center;
+  display:flex;
+
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.btn-project {
+  margin-top:5px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.project-img-container {
+
+}
+
+.project-img {
+    margin: 0 auto;
+    padding:0px;
+    border: 2px solid white;
+}
+
+.project .project-text {
+  color: #ffffff;
+  font-size: 1em;
+  text-align: left;
+}
+
+.project-title-container {
+  margin-bottom: 30px;
+}
+
+.project-title {
+  font-size: 1.4em;
+  color: #ffffff;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+/* ---------- Projects END ---------------------------------- */
+
+/* ---------- Contact STARDT ---------------------------------- */
+.contact-info-container {
+  text-align: center;
+}
+
+.contact-info-title {
+  font-size:2em;
+  margin-bottom:15px;
+}
+
+.contact-img {
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 80px;
+}
+
+/* ---------- Contact END ---------------------------------- */
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  body{font-size:14px;}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  body{font-size:16px;}
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+}

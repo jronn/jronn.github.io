@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Josef Rönn</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>-->
+  <script src="js/myjs.js"></script>
+
+</head>
+<body>
+
+ <!-- PROFILE HEADER START _____________________________ -->
+  <div class="row bg-black">
+
+    <div class="profile-desc col-md-3 col-md-offset-2">
+      <div class="profile-desc-container">
+        <div class="row">
+          <h1 class="profile-title">Josef Rönn</h1>
+        </div>
+        <div class="row">
+          <h2 class="profile-subtitle">Programmer</h2>
+        </div>
+
+        <div class="row">
+          <button type="button" class="btn btn-default" id="btn-about-me">
+            <span class="button-content">
+              <i class="fa fa-user fa-2x"></i>
+              <span class="button-text">About me</span>
+            </span>
+          </button>
+
+          <button type="button" class="btn btn-default" id="btn-projects">
+            <span class="button-content">
+              <i class="fa fa-briefcase fa-2x"></i>
+              <span class="button-text">Projects</span>
+            </span>
+          </button>
+
+          <button type="button" onclick="location.href='http://github.com/jronn/';" class="btn btn-default">
+            <span class="button-content">
+              <i class="fa fa-github fa-2x"></i>
+              <span class="button-text">Github</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-md-offset-2 hidden-sm hidden-xs">
+      <img class="profile-img img-circle img-responsive center-block" src="images/profileBWmosaic.jpg" alt="profile picture"/>
+    </div>
+
+  </div>
+  <!-- PROFILE HEADER END _____________________________ -->
+
+  <div class="row col-md-1 col-md-offset-2">
+    <div class="arrow-down" id="arrow-down-1">
+    </div>
+  </div>
+
+  <!-- ABOUT ME SECTION START _____________________________ -->
+  <div class="row about-section">
+      <div id="about-me-anchor"></div>
+      <span class="about-desc col-md-6 col-md-offset-2">
+        <span class="about-me-title">
+          About me
+        </span>
+        <br />
+        <span class="about-me-text">
+          I'm 22 years old, and recently graduated from KTH with a Bachelor's degree in Computer Engineering. Through my education and various school projects I learnt
+          how create desktop, mobile & web applications using <span class="higlighted">Java</span>, <span class="higlighted">HTML</span>, <span class="higlighted">CSS</span> & <span class="higlighted">Javascript</span>, backed by <span class="higlighted">MySQL</span> databases. Through various personal projects I've also gained experience
+          in using <span class="higlighted">C#</span>, <span class="higlighted">Bootstrap</span> & <span class="higlighted">Git</span>, among other things.
+          You'll find some of these projects described below.
+          <br><br>
+          When I'm not programming I enjoy playing online-games with friends, watching TV-series and doing paper rounds.
+        </span>
+
+        <hr class=""/>
+      </span>
+  </div>
+  <!-- ABOUT ME SECTION END _____________________________ -->
+
+  <div class="row col-md-1 col-md-offset-2 bg-black">
+    <div class="arrow-down arrow-white" id="arrow-down-2">
+    </div>
+  </div>
+
+  <!-- PROJECT SECTION START _____________________________ -->
+  <div class="row project-section">
+    <div id="projects-anchor"></div>
+    <div class="row project-section-title">
+      Projects
+    </div>
+
+    <div class="project col-md-4">
+      <div class="row">
+        <img class="project-img col-md-12 img-responsive" src="images/websitessblack.jpg" />
+      </div>
+      <div class="row">
+        <div class="project-title-container col-md-12">
+          <div class="row">
+            <span class="project-title col-md-12">Personal website</span>
+          </div>
+          <div class="row project-btn-container">
+            <button type="button" onclick="location.href='http://jronn.github.io';" class="btn btn-default btn-project col-md-6">
+              <span class="button-content">
+                <i class="fa fa-play-circle fa-2x"></i>
+                <span class="button-text">Demo</span>
+              </span>
+            </button>
+            <button type="button" onclick="location.href='https://github.com/jronn/jronn.github.io';" class="btn btn-default btn-project col-md-6">
+              <span class="button-content">
+                <i class="fa fa-pencil-square fa-2x"></i>
+                <span class="button-text">code</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="project-text col-md-12">
+Personal website (this site), made to act as a online CV. Responsive to different screen sizes, such as desktop monitors, tablets and mobile devices.
+<br><br>
+Technologies used: HTML, CSS, Javascript/JQuery, Bootstrap
+        </div>
+      </div>
+    </div>
+
+    <hr class="hidden-md hidden-lg"/>
+
+    <div class="project col-md-4">
+      <div class="row project-img-container">
+        <img class="project-img col-md-12 img-responsive" src="images/adss.jpg" />
+      </div>
+      <div class="row">
+        <div class="project-title-container col-md-12">
+          <div class="row">
+            <span class="project-title col-md-12">Astro defence</span>
+          </div>
+          <div class="row project-btn-container">
+            <button type="button" onclick="location.href='https://play.google.com/store/apps/details?id=se.jronn.astrodefence';" class="btn btn-default btn-project col-md-6">
+              <span class="button-content">
+                <i class="fa fa-play-circle fa-2x"></i>
+                <span class="button-text">Demo</span>
+              </span>
+            </button>
+            <button type="button" onclick="location.href='https://github.com/jronn/Astro_defence';" class="btn btn-default btn-project col-md-6">
+              <span class="button-content">
+                <i class="fa fa-pencil-square fa-2x"></i>
+                <span class="button-text">code</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="project-text col-md-12">
+Mobile android application, game that has you defending earth against asteroids. Available for download on Google Play.
+<br><br>
+Technologies used: Java, Libgdx
+        </div>
+      </div>
+    </div>
+
+    <hr class="hidden-md hidden-lg"/>
+
+    <div class="project col-md-4">
+      <div class="row">
+        <img class="project-img col-md-12 img-responsive" src="images/wpmss.jpg" />
+      </div>
+      <div class="row">
+        <div class="project-title-container col-md-12">
+          <div class="row">
+            <span class="project-title col-md-12">Wordpic Memo</span>
+          </div>
+          <div class="row project-btn-container">
+            <button type="button" disabled onclick="location.href='http://github.com/jronn/';" class="btn btn-default btn-project col-md-6">
+              <span class="button-content">
+                <i class="fa fa-play-circle fa-2x"></i>
+                <span class="button-text">Demo</span>
+              </span>
+            </button>
+            <button type="button" disabled onclick="location.href='http://github.com/jronn/';" class="btn btn-default btn-project col-md-6">
+              <span class="button-content">
+                <i class="fa fa-pencil-square fa-2x"></i>
+                <span class="button-text">code</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="project-text col-md-12">
+Mobile android application, developed as part of my graduate work with another student. Memory game with ability to customize your own decks, and play against other players over a P2P connection. Has a backend server and admin webapplication developed in C# and ASP.net.
+<br><br>
+Technologies used: Java, C#, ASP.net, SQL
+        </div>
+      </div>
+    </div>
+
+    <hr class="hidden-md hidden-lg"/>
+
+  </div>
+  <!-- PROJECT SECTION END _____________________________ -->
+
+  <!-- CONTACT INFO START ______________________________ -->
+
+  <div class="row col-md-1 col-md-offset-2">
+      <div class="arrow-down" id="arrow-down-3"></div>
+  </div>
+
+  <div class="row contact-info-container">
+    <span class="contact-info-title col-md-12">
+      Contact me at:
+    </span>
+    <div class="row col-md-10 col-md-offset-1">
+      <img src="images/email.jpg" class="contact-img img-responsive" alt="contact info"/>
+    </div>
+  </div>
+
+
+  <!-- CONTACT INFO END ________________________________ -->
+</body>
+</html>
