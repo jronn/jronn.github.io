@@ -177,6 +177,7 @@ body {
 .contact-info-title {
   font-size:2em;
   margin-bottom:15px;
+  margin-top:40px;
 }
 
 .contact-img {
@@ -189,7 +190,7 @@ body {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-  body{font-size:14px;}
+
 }
 
 /* Landscape phones and portrait tablets */
