@@ -1,7 +1,10 @@
-body {
+html, body {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   overflow-x:hidden;
+  padding:0px !important;
+  margin: 0 !important;
+  width: 100%;
 }
 
 .arrow-down {
@@ -191,13 +194,12 @@ body {
 
 /* Portrait phones and smaller */
 @media screen and (max-width: 480px) {
-  .button-text{font-size:1.6em;}
+  body{font-size:14px;}
 }
 
 /* Landscape phones and portrait tablets */
 @media screen and (min-width: 481px) and (max-width: 767px) {
-  body{font-size:22px;}
-  .button-text{font-size:1.3em;}
+  body{font-size:20px;}
 }
 
 /* Portrait tablets and small desktops */
