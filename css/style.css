@@ -190,16 +190,16 @@ body {
 /* ---------- Contact END ---------------------------------- */
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .button-text{font-size:1.6em;}
 }
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   body{font-size:22px;}
   .button-text{font-size:1.3em;}
 }
 
 /* Portrait tablets and small desktops */
-@media (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 }
